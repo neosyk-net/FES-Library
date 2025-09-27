@@ -6,7 +6,7 @@ function renderBooks(books) {
   booksWrapper.innerHTML =
    `<div class="book">
     <figure class="book__img--wrapper">
-    <img class="book__img" src=${books(0).url} alt="">
+    <img class="book__img" src=`${books(0).url}` alt="">
     </figure>
     <div class="book__title">
     ${books[0].title}
