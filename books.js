@@ -1,27 +1,20 @@
 function renderBooks(books) {
   const booksWrapper = document.querySelector('.books');
-
-  const booksData = getBooks();
- console.log(books);
-  booksWrapper.innerHTML =
-   `<div class="book">
-    <figure class="book__img--wrapper">
-    <img class="book__img" src="${booksData[0].url}" alt="">
-    </figure>
-    <div class="book__title">
-    ${booksData[0].title}
-    </div>
-    <div class="book__ratings">
-    <i class="fas fa-star"></i>
-    <i class="fas fa-star"></i>
-    <i class="fas fa-star"></i>
-    <i class="fas fa-star"></i>
-    <i class="fas fa-star-half-alt"></i>
-    </div>
-     <div class="book__price">
-    <span class="book__price--normal">$${booksData[0].originalPrice}</span> $${booksData[0].salePrice}
-    </div>
-   </div>`
+  console.log(booksWrapper);
+//     `<div class="book">
+//     <figure class="book__img--wrapper">
+//       <img class="book__img" src="assets/crack the coding interview.png" alt="">
+//     </figure>
+//     <div class="book__title">
+//       Crack the Coding Interview
+//     </div>
+//     <div class="book__ratings">
+//       <i class="fas fa-star"></i>
+//       <i class="fas fa-star"></i>
+//       <i class="fas fa-star"></i>
+//       <i class="fas fa-star"></i>
+//       <i class="fas fa-star-half-alt"></i>
+//     </div>`
 }
 
 setTimeout(() => {
