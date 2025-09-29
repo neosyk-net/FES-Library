@@ -20,7 +20,7 @@ function renderBooks(filter) {
   const booksHTML = books.map(book => {
     return  `<div class="book">
     <figure class="book__img--wrapper">
-      <img class="book__img" src="${book.url}" alt="">
+     <img class="book__img" src="${book.url}" alt="">
     </figure>
     <div class="book__title">
       ${book.title}
