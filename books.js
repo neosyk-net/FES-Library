@@ -36,7 +36,7 @@ async function renderBooks(filter) {
       ${priceHTML(book.originalPrice, book.salePrice)}
     </div>
   </div>`
-  }).join("");
+  }).join("");  
 
 
   booksWrapper.innerHTML = booksHTML;
